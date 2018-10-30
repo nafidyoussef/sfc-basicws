@@ -1,0 +1,22 @@
+version: 1
+
+dn: ou=users,dc=auth,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: uid=yelansari,ou=users,dc=auth,dc=com
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Younes Elansari
+sn: yelansari
+uid: yelansari
+userPassword:: e3NzaGF9V1F1M0trQ3h5clVoQWxVMkVvRmVJNkNPZjZUbjhZVTc3UG9GZVE9P
+ Q==
+
+dn: dc=auth,dc=com
+objectclass: top
+objectclass: domain
+dc: auth
